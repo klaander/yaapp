@@ -180,7 +180,7 @@ public class MainActivity extends AppCompatActivity {
 
           Uri uri = MediaStore.Audio.Media.EXTERNAL_CONTENT_URI;
           String selection = MediaStore.Audio.Media.IS_MUSIC + "!= 0";
-          String sortOrder = MediaStore.Audio.Media.TITLE + " ASC";
+          String sortOrder = MediaStore.Audio.Media.DATA + " ASC";
           Cursor cursor = contentResolver.query(uri, null, selection, null, sortOrder);
 
           if (cursor != null && cursor.getCount() > 0) {
