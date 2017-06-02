@@ -1,4 +1,4 @@
-package com.valdioveliu.valdio.audioplayer;
+package com.serandon.yaapp;
 
 /**
  * Created by Valdio Veliu on 16-07-29.

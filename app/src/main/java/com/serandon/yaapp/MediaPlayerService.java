@@ -1,4 +1,4 @@
-package com.valdioveliu.valdio.audioplayer;
+package com.serandon.yaapp;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -36,11 +36,11 @@ public class MediaPlayerService extends Service implements MediaPlayer.OnComplet
         AudioManager.OnAudioFocusChangeListener {
 
 
-    public static final String ACTION_PLAY = "com.valdioveliu.valdio.audioplayer.ACTION_PLAY";
-    public static final String ACTION_PAUSE = "com.valdioveliu.valdio.audioplayer.ACTION_PAUSE";
-    public static final String ACTION_PREVIOUS = "com.valdioveliu.valdio.audioplayer.ACTION_PREVIOUS";
-    public static final String ACTION_NEXT = "com.valdioveliu.valdio.audioplayer.ACTION_NEXT";
-    public static final String ACTION_STOP = "com.valdioveliu.valdio.audioplayer.ACTION_STOP";
+    public static final String ACTION_PLAY = "com.serandon.yaapp.ACTION_PLAY";
+    public static final String ACTION_PAUSE = "com.serandon.yaapp.ACTION_PAUSE";
+    public static final String ACTION_PREVIOUS = "com.serandon.yaapp.ACTION_PREVIOUS";
+    public static final String ACTION_NEXT = "com.serandon.yaapp.ACTION_NEXT";
+    public static final String ACTION_STOP = "com.serandon.yaapp.ACTION_STOP";
 
     private MediaPlayer mediaPlayer;
 

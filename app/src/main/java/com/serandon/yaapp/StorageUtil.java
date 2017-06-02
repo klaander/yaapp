@@ -1,4 +1,4 @@
-package com.valdioveliu.valdio.audioplayer;
+package com.serandon.yaapp;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -14,7 +14,7 @@ import java.lang.reflect.Type;
  */
 public class StorageUtil {
 
-    private final String STORAGE = " com.valdioveliu.valdio.audioplayer.STORAGE";
+    private final String STORAGE = " com.serandon.yaapp.STORAGE";
     private SharedPreferences preferences;
     private Context context;
 

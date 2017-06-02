@@ -1,4 +1,4 @@
-package com.valdioveliu.valdio.audioplayer;
+package com.serandon.yaapp;
 
 import org.junit.Test;
 

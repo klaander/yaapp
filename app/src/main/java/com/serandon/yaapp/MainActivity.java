@@ -1,7 +1,6 @@
-package com.valdioveliu.valdio.audioplayer;
+package com.serandon.yaapp;
 
 import android.Manifest;
-import android.annotation.TargetApi;
 import android.content.ComponentName;
 import android.content.ContentResolver;
 import android.content.Context;
@@ -43,7 +42,7 @@ import static android.os.Build.VERSION.SDK_INT;
 public class MainActivity extends AppCompatActivity {
 
     public static final int REQUEST_ID_MULTIPLE_PERMISSIONS = 1;
-    public static final String Broadcast_PLAY_NEW_AUDIO = "com.valdioveliu.valdio.audioplayer.PlayNewAudio";
+    public static final String Broadcast_PLAY_NEW_AUDIO = "com.serandon.yaapp.PlayNewAudio";
 
     private MediaPlayerService player;
     boolean serviceBound = false;
