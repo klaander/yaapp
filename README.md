@@ -1,13 +1,13 @@
-# AudioPlayer
+# Yat Another Audio and Podcast Player
 
-A simple Android Audio player App for playing audio files in a background service. 
+The intention of this app is to become the best possible Android audio player
+for me personally. :-) As a bonus, it will also be my learning platform for
+anything new I want to learn about Android development.
 
-The service can be used to play both local media files and streaming media from remote APIs.
+This application is forked from https://github.com/valdio/AudioPlayer and the
+original. The related article at
+https://www.sitepoint.com/a-step-by-step-guide-to-building-an-android-audio-player-app/
+was my original inspiration.
 
-|![Screenshot](https://github.com/valdio/AudioPlayer/blob/master/Screenshots/Screenshot_2016-08-12-19-31-48.png)|![Screenshot](https://github.com/valdio/AudioPlayer/blob/master/Screenshots/Screenshot_2016-08-12-19-32-09.png)|
-| ------------- | ------------- |
-|![Screenshot](https://github.com/valdio/AudioPlayer/blob/master/Screenshots/Screenshot_2016-07-30-13-28-42.png)|![Screenshot](https://github.com/valdio/AudioPlayer/blob/master/Screenshots/Screenshot_2016-08-12-19-32-28.png)|
-
-
-
-
+I most probably won't make an effort to keep up with possible updates in
+upstream project.
